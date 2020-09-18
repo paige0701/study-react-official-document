@@ -5,6 +5,8 @@ import ToggleBtn from "./ToggleBtn";
 import LoginControl from "./LoginControl";
 import NumberList from "./NumberList";
 import Blog from "./Blog";
+import NameForm from "./Forms";
+import FlavorForm from "./Forms";
 
 const App = () => {
     const temp = [
@@ -12,11 +14,13 @@ const App = () => {
         <ToggleBtn></ToggleBtn>,
         <LoginControl/>,
         <NumberList/>,
-        <Blog/>
+        <Blog/>,
+        <NameForm/>,
+        <FlavorForm/>
     ]
 
     return (
-        temp[4]
+        temp[5]
     )}
 
 export default App;
