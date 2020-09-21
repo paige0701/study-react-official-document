@@ -7,6 +7,7 @@ import NumberList from "./NumberList";
 import Blog from "./Blog";
 import NameForm from "./Forms";
 import FlavorForm from "./Forms";
+import Calculator from "./Calculator";
 
 const App = () => {
     const temp = [
@@ -16,11 +17,12 @@ const App = () => {
         <NumberList/>,
         <Blog/>,
         <NameForm/>,
-        <FlavorForm/>
+        <FlavorForm/>,
+        <Calculator/>
     ]
 
     return (
-        temp[5]
+        temp[7]
     )}
 
 export default App;
