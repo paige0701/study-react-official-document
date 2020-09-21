@@ -8,6 +8,7 @@ import Blog from "./Blog";
 import NameForm from "./Forms";
 import FlavorForm from "./Forms";
 import Calculator from "./Calculator";
+import FilterableProductTable from "./FilterableProductTable";
 
 const App = () => {
     const temp = [
@@ -18,11 +19,12 @@ const App = () => {
         <Blog/>,
         <NameForm/>,
         <FlavorForm/>,
-        <Calculator/>
+        <Calculator/>,
+        <FilterableProductTable/>
     ]
 
     return (
-        temp[7]
+        temp[8]
     )}
 
 export default App;
